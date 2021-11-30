@@ -1,0 +1,50 @@
+.contact{
+  display: flex;
+  text-align: justify;
+  padding-bottom: 24px;
+  &__adress{
+    margin-top: 28px;
+    margin-right: 47px;
+    &-img{
+
+    }
+    &-subtitle{
+      margin-top: 20px;
+      font-family: Roboto sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      color: #263238;
+    }
+    &-description{
+      margin-top: 8px;
+      font-family: Roboto,sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 149.19%;
+      color: #263238;
+    }
+  }
+  &__phone{
+    margin-top: 51px;
+    &-title{
+      font-family: Roboto,sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      color: #263238;
+    }
+    &-description{
+      margin-top: 15px;
+      font-family: Roboto,sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 149.19%;
+      color: #263238;
+    }
+  }
+}

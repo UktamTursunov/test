@@ -1,0 +1,23 @@
+@import "../fonts/stylesheet.css";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+ max-width: 1150px;
+  text-align: center;
+  margin-left: 157px;
+}
+li{
+  list-style-type: none;
+}
+
+
+@import "header.css";
+@import "information";
+@import "dsi";
+@import "product";
+@import "contact";
+@import "footer";
